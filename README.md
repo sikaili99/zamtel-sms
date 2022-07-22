@@ -5,7 +5,7 @@ Zamtel bulk SMS api example in Python
 
 # Installation
 
-` pip install zamtel-sms `
+` pip install zamtelsms `
 
 # Setup 
 Create a .env file in the root of your project and add the following

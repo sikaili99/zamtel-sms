@@ -1,8 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='zamtel-sms',
-    version='1.0.0',
+    name='zamtelsms',
+    packages = find_packages(),
+    version='0.0.4',
     description='A small python Package for Zamtel bulk SMS API',
     author='Mathews Musukuma',
     author_email='sikaili99@gmail.com',
