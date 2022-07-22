@@ -31,7 +31,7 @@ print(response)
 You can also pass an array of phone numbers to send a sms SMS to multiple clients. 
 
 ```
-from sms import send_sms
+from zamtelsms.sms import send_sms
 
 phone_numbers = ['0976xxxxxx','0976xxxxxx','0976xxxxxx','0976xxxxxx','0976xxxxxx',]
 
