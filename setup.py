@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='zamtelsms',
     packages = find_packages(),
-    version='0.0.4',
+    version='0.0.6',
     description='A small python Package for Zamtel bulk SMS API',
     author='Mathews Musukuma',
     author_email='sikaili99@gmail.com',

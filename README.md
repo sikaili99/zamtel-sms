@@ -1,7 +1,5 @@
-Zamte SMS
-==========================
-
 Zamtel bulk SMS api example in Python
+==========================
 
 # Installation
 
@@ -15,8 +13,8 @@ SENDER_ID=YOUR_SENDER_ID_FROM_ZAMTEL
 BASE_URL=https://bulksms.zamtel.co.zm/api/v2.1/action/send/
 
 ```
-* API_KEY is the API_KEY you can from Zamtel
-* SENDER_ID is the SENDER_ID you can from Zamtel
+* API_KEY is the API_KEY you were given by Zamtel
+* SENDER_ID is the SENDER_ID you were given by Zamtel
 
 # Usage
 
