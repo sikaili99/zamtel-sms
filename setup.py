@@ -1,10 +1,9 @@
 from setuptools import setup
-from zamtelsms.version import Version
-
 
 setup(
     name='zamtel-sms',
-    version=Version('1.0.0').number,
+    version='1.0.0',
+    description='A small python Package for Zamtel bulk SMS API',
     author='Mathews Musukuma',
     author_email='sikaili99@gmail.com',
     url='https://github.com/Mathewsmusukuma/zamtel-sms',
