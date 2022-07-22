@@ -1,4 +1,31 @@
+*.py[cod]
+.python-version
+.DS_Store
+
+# C extensions
+*.so
+
 .env
 env/
 
 pycache__/
+__pycache__
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+.cache
+
+# Installer logs
+pip-log.txt
