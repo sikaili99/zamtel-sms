@@ -1,4 +1,5 @@
-# zamtel-sms
+Zamte SMS
+==========================
 
 Zamtel bulk SMS api example in Python
 
