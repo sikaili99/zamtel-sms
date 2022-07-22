@@ -15,5 +15,13 @@ setup(
     license='MIT License',
     zip_safe=False,
     keywords='zamtel sms package',
-    classifiers=['Packages', 'SMS']
+      classifiers=[
+    'Development Status :: 3 - Alpha',     
+    'Intended Audience :: Developers',
+    'Topic :: Software Development :: SMS',
+    'License :: OSI Approved :: MIT License',  
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+  ]
     )
