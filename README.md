@@ -8,20 +8,20 @@ Zamtel bulk SMS api example in Python
 # Setup 
 Create a .env file in the root of your project and add the following
 ```
-API_KEY=YOUR_API_KEY_FROM_ZAMTEL
-SENDER_ID=YOUR_SENDER_ID_FROM_ZAMTEL
-BASE_URL=https://bulksms.zamtel.co.zm/api/v2.1/action/send/
+ZAMTEL_API_KEY=YOUR_API_KEY_FROM_ZAMTEL
+ZAMTEL_SENDER_ID=YOUR_SENDER_ID_FROM_ZAMTEL
+ZAMTEL_BASE_URL=https://bulksms.zamtel.co.zm/api/v2.1/action/send/
 
 ```
-* API_KEY is the API_KEY you were given by Zamtel
-* SENDER_ID is the SENDER_ID you were given by Zamtel
+* ZAMTEL_API_KEY is the API_KEY you were given by Zamtel
+* ZAMTEL_SENDER_ID is the ZAMTEL_SENDER_ID you were given by Zamtel
 
 # Usage
 
 You can use the function to send a single here is an example
 
 ```
-from sms import send_sms
+from zamtelsms.sms import send_sms
 
 response = send_sms('0975442232', 'Hello there, I am testing the Zamtel Bulk SMS API')
 
